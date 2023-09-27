@@ -1,0 +1,68 @@
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: aqua;
+    font-size: 20px;
+}
+.parent {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    border: 3px solid blue;
+    width: 550px;
+    text-align: center;
+    background-color: #33ADFF;
+    display: block;
+    /*position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+  }
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 100px;
+}
+a:hover {
+    background-color: #0066FF;
+  }
+li {
+    display: inline;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.viewcatalog {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.parent div {
+    border: 2px solid black;
+    padding: 20px 10px;
+}
